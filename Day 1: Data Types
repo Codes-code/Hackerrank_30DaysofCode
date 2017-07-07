@@ -1,0 +1,12 @@
+ int a; double b; string s1;
+    cin>>a>>b;
+    if(getline(cin>>ws,s1))
+        {
+        getline(cin,s1);
+    }
+    cout<<a+i<<"\n";
+    printf("%.1lf\n",b+d);
+    s=s+s1;
+    cout<<s;
+  
+    
