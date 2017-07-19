@@ -1,0 +1,40 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+public class Solution {
+   
+   public static void main(String[] args) {
+      Scanner scan = new Scanner(System.in);
+      int n = scan.nextInt(); 
+      scan.close();
+      String ans="Weird";
+      String waow="Not";
+          
+    
+      if(n%2==1)
+      {
+         System.out.print(ans);
+      }
+      else
+      {
+          if(2<n)
+              {
+              
+                  if(n<5)
+                  {
+                  System.out.print(waow+" ");
+                  }
+              
+                  if(n>20)
+                  {
+                  System.out.print(waow+" ");
+                  }
+              
+              System.out.print(ans);
+             }
+         
+      }
+   }
+}
